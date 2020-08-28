@@ -5,7 +5,7 @@ clase sistemas distribuidos
 
 @author: Usuario UTP
 """
-from xmlrpc.server import SimpleXMLRPCServer
+from SimpleXMLRPCServer import SimpleXMLRPCServer
 #from xmlrpc.server import SimpleXMLRPCServer
 
 class funciones_rpc:
