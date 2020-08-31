@@ -27,7 +27,7 @@ server = SimpleXMLRPCServer(("localhost", 8001))
 server.register_instance(funciones_rpc())
 
 #enviamos un mensaje comprobando que iniciamos el servidor 
-print("soy un servidor implementado con clases")
+print("soy un servidor implementado con clases") 
 
 #iniciamos el servidor
 server.serve_forever()
