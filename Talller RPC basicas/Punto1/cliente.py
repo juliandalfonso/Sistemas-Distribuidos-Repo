@@ -49,10 +49,14 @@ guardar_archivo(lista)
 while True:
 
     os.system('cls')
+    print(lista)
+
 
     menu()
 
     p = eval(input("digite su opcion: "))
+
+
 
     if p == 1:
         archivo = s.Invertir_lista('lista.txt')
